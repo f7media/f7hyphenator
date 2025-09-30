@@ -1,0 +1,47 @@
+{
+	"name": "f7media/f7hyphenator",
+	"description": "Provides a hyphenator ViewHelper to add &shy; to text output",
+	"keywords": [
+		"typo3",
+		"frontend"
+	],
+	"homepage": "https://f7.de",
+	"support": {
+		"source": "https://github.com/f7media/f7hyphenator",
+		"issues": "https://github.com/f7media/f7hyphenator/issues"
+	},
+	"authors": [
+		{
+			"name": "Marc Willmann",
+			"role": "Crew"
+		},
+		{
+			"name": "Simon Pritzkat-Gerthenrich",
+			"role": "Project Manager"
+		},
+		{
+			"name": "Patricia Tiedemann",
+			"role": "Crew"
+		}
+	],
+	"license": [
+		"GPL-3.0-or-later"
+	],
+	"type": "typo3-cms-extension",
+	"version": "1.0.0",
+	"require": {
+		"typo3/cms-core": "^12.4 || ^13.4",
+		"typo3fluid/fluid": "^2.7 || ^4.0",
+		"vanderlee/syllable": "1.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"F7\\F7hyphenator\\": "Classes/"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "f7hyphenator"
+		}
+	}
+}

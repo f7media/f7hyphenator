@@ -1,0 +1,15 @@
+.Build/
+.idea/
+Build/testing-docker/.env
+Build/.phpunit.cache
+var/
+composer.lock
+.php-cs-fixer.cache
+.env
+config
+.idea
+
+composer.json.testing
+.cache
+
+Documentation-GENERATED-temp/

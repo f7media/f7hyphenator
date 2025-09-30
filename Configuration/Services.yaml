@@ -1,0 +1,8 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  F7\F7hyphenator\:
+    resource: '../Classes/*'
