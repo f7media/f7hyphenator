@@ -3,9 +3,9 @@
 
 # TYPO3 Extension `f7hyphenator`
 
-The "f7hyphenator" extension provides a ViewHelper to add &shy; word breakpoints
-based on [vanderlee/phpSyllable](https://github.com/vanderlee/phpSyllable) in
-Fluid.
+The "f7hyphenator" extension provides a ViewHelper to add `&shy;` word 
+breakpoints based on [vanderlee/phpSyllable](https://github.com/vanderlee/phpSyllable)
+in Fluid.
 
 This helps ensuring that longer words break up more nicely inside their
 containers when displayed in responsive layout.
@@ -30,7 +30,8 @@ Alternative **inline notation** and enchaining
 {record.title -> f7:hyphenator() -> f:format.stripTags()}
 ```
 
-If needed, you could also directly **call the stateless service** directly from **PHP**:
+If needed, you could also directly **call the stateless service** directly 
+from **PHP**:
 ```php
 use F7\F7hyphenator\Service\HyphenationService;
 
@@ -46,8 +47,9 @@ $hyphenatedText = HyphenationService::hyphenateString($text, $minWordLength, $mi
 
 ## Known Issues
 
-* Blacklist is currently hardcoded in `HyphenationService`
-* Blacklisted words are not recognised in dash-separated words (e.g. blacklisted "TYPO3" in "TYPO3-Website")
+- Blacklist is currently hardcoded in `HyphenationService`
+- Blacklisted words are not recognised in dash-separated words 
+  (e.g. blacklisted "TYPO3" in "TYPO3-Website")
 
 ## Contact
 
